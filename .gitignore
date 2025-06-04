@@ -1,0 +1,43 @@
+# STM32CubeIDE build artifacts
+/build/
+Debug/
+Release/
+
+# IDE config and metadata
+.cproject
+.project
+.settings/
+*.launch
+*.log
+
+# STM32CubeMX
+*.ioc.saved
+
+# STM32CubeIDE index and temp files
+.metadata/
+*.bin
+*.hex
+*.elf
+*.map
+*.list
+*.su
+*.o
+*.d
+
+# SWO trace and debug files
+*.svd
+*.swd
+*.stlink*
+*.jtag*
+*.trc
+*.trace
+
+# Backup/Autosave
+*~
+*.bak
+*.orig
+
+# MacOS / Windows / Linux system files
+.DS_Store
+Thumbs.db
+desktop.ini
